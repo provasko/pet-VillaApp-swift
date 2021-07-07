@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		BB644FCD26965E7900F6278B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FCC26965E7900F6278B /* AppDelegate.swift */; };
 		BB644FCF26965E7900F6278B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FCE26965E7900F6278B /* SceneDelegate.swift */; };
-		BB644FD126965E7900F6278B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FD026965E7900F6278B /* ViewController.swift */; };
 		BB644FD426965E7900F6278B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD226965E7900F6278B /* Main.storyboard */; };
 		BB644FD626965E7C00F6278B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD526965E7C00F6278B /* Assets.xcassets */; };
 		BB644FD926965E7C00F6278B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD726965E7C00F6278B /* LaunchScreen.storyboard */; };
+		BB644FE2269661C300F6278B /* VillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FE0269661C300F6278B /* VillaViewController.swift */; };
+		BB644FE3269661C300F6278B /* VillaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB644FE1269661C300F6278B /* VillaViewController.xib */; };
+		BB644FE72696662600F6278B /* RoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FE52696662600F6278B /* RoomCollectionViewCell.swift */; };
+		BB644FE82696662600F6278B /* RoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB644FE62696662600F6278B /* RoomCollectionViewCell.xib */; };
+		BB644FEA269668F600F6278B /* Villa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FE9269668F600F6278B /* Villa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB644FC926965E7900F6278B /* VillaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VillaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB644FCC26965E7900F6278B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB644FCE26965E7900F6278B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB644FD026965E7900F6278B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB644FD326965E7900F6278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB644FD526965E7C00F6278B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB644FD826965E7C00F6278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB644FDA26965E7C00F6278B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB644FE0269661C300F6278B /* VillaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillaViewController.swift; sourceTree = "<group>"; };
+		BB644FE1269661C300F6278B /* VillaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VillaViewController.xib; sourceTree = "<group>"; };
+		BB644FE52696662600F6278B /* RoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB644FE62696662600F6278B /* RoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB644FE9269668F600F6278B /* Villa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		BB644FCB26965E7900F6278B /* VillaApp */ = {
 			isa = PBXGroup;
 			children = (
+				BB644FE4269665C000F6278B /* VillaCards */,
 				BB644FCC26965E7900F6278B /* AppDelegate.swift */,
 				BB644FCE26965E7900F6278B /* SceneDelegate.swift */,
-				BB644FD026965E7900F6278B /* ViewController.swift */,
 				BB644FD226965E7900F6278B /* Main.storyboard */,
 				BB644FD526965E7C00F6278B /* Assets.xcassets */,
 				BB644FD726965E7C00F6278B /* LaunchScreen.storyboard */,
 				BB644FDA26965E7C00F6278B /* Info.plist */,
+				BB644FE0269661C300F6278B /* VillaViewController.swift */,
+				BB644FE1269661C300F6278B /* VillaViewController.xib */,
+				BB644FE9269668F600F6278B /* Villa.swift */,
 			);
 			path = VillaApp;
+			sourceTree = "<group>";
+		};
+		BB644FE4269665C000F6278B /* VillaCards */ = {
+			isa = PBXGroup;
+			children = (
+				BB644FE52696662600F6278B /* RoomCollectionViewCell.swift */,
+				BB644FE62696662600F6278B /* RoomCollectionViewCell.xib */,
+			);
+			path = VillaCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB644FE82696662600F6278B /* RoomCollectionViewCell.xib in Resources */,
 				BB644FD926965E7C00F6278B /* LaunchScreen.storyboard in Resources */,
 				BB644FD626965E7C00F6278B /* Assets.xcassets in Resources */,
 				BB644FD426965E7900F6278B /* Main.storyboard in Resources */,
+				BB644FE3269661C300F6278B /* VillaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB644FD126965E7900F6278B /* ViewController.swift in Sources */,
 				BB644FCD26965E7900F6278B /* AppDelegate.swift in Sources */,
 				BB644FCF26965E7900F6278B /* SceneDelegate.swift in Sources */,
+				BB644FE2269661C300F6278B /* VillaViewController.swift in Sources */,
+				BB644FEA269668F600F6278B /* Villa.swift in Sources */,
+				BB644FE72696662600F6278B /* RoomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
