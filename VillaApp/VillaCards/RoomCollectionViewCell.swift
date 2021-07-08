@@ -15,6 +15,11 @@ class RoomCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.roomImage.image = nil
+    }
+    
     func setupCell(room:Room){
         self.roomImage.image = room.image
     }
