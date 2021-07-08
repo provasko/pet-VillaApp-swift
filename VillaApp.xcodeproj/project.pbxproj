@@ -11,7 +11,6 @@
 		BB644FCF26965E7900F6278B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FCE26965E7900F6278B /* SceneDelegate.swift */; };
 		BB644FD426965E7900F6278B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD226965E7900F6278B /* Main.storyboard */; };
 		BB644FD626965E7C00F6278B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD526965E7C00F6278B /* Assets.xcassets */; };
-		BB644FD926965E7C00F6278B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB644FD726965E7C00F6278B /* LaunchScreen.storyboard */; };
 		BB644FE2269661C300F6278B /* VillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FE0269661C300F6278B /* VillaViewController.swift */; };
 		BB644FE3269661C300F6278B /* VillaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB644FE1269661C300F6278B /* VillaViewController.xib */; };
 		BB644FE72696662600F6278B /* RoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB644FE52696662600F6278B /* RoomCollectionViewCell.swift */; };
@@ -25,7 +24,6 @@
 		BB644FCE26965E7900F6278B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BB644FD326965E7900F6278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB644FD526965E7C00F6278B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB644FD826965E7C00F6278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB644FDA26965E7C00F6278B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB644FE0269661C300F6278B /* VillaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillaViewController.swift; sourceTree = "<group>"; };
 		BB644FE1269661C300F6278B /* VillaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VillaViewController.xib; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				BB644FCE26965E7900F6278B /* SceneDelegate.swift */,
 				BB644FD226965E7900F6278B /* Main.storyboard */,
 				BB644FD526965E7C00F6278B /* Assets.xcassets */,
-				BB644FD726965E7C00F6278B /* LaunchScreen.storyboard */,
 				BB644FDA26965E7C00F6278B /* Info.plist */,
 				BB644FE0269661C300F6278B /* VillaViewController.swift */,
 				BB644FE1269661C300F6278B /* VillaViewController.xib */,
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB644FE82696662600F6278B /* RoomCollectionViewCell.xib in Resources */,
-				BB644FD926965E7C00F6278B /* LaunchScreen.storyboard in Resources */,
 				BB644FD626965E7C00F6278B /* Assets.xcassets in Resources */,
 				BB644FD426965E7900F6278B /* Main.storyboard in Resources */,
 				BB644FE3269661C300F6278B /* VillaViewController.xib in Resources */,
@@ -176,14 +172,6 @@
 				BB644FD326965E7900F6278B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB644FD726965E7C00F6278B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB644FD826965E7C00F6278B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -8,10 +8,15 @@
 import UIKit
 
 class RoomCollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet weak var roomImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    
+    func setupCell(room:Room){
+        self.roomImage.image = room.image
     }
 
 }
