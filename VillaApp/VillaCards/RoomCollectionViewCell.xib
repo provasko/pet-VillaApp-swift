@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="9iM-bW-YhV">
-                        <rect key="frame" x="5" y="0.0" width="232" height="244"/>
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="244"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lt-h1-dds">
@@ -38,10 +38,10 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="9iM-bW-YhV" secondAttribute="trailing" constant="5" id="3nX-NN-GhZ"/>
+                <constraint firstAttribute="trailing" secondItem="9iM-bW-YhV" secondAttribute="trailing" id="3nX-NN-GhZ"/>
                 <constraint firstItem="7lt-h1-dds" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="5qV-rN-ULq"/>
                 <constraint firstAttribute="bottom" secondItem="wjS-CY-Tp1" secondAttribute="bottom" constant="8" id="IFL-fX-YCu"/>
-                <constraint firstItem="9iM-bW-YhV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="bPs-VZ-RLa"/>
+                <constraint firstItem="9iM-bW-YhV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bPs-VZ-RLa"/>
                 <constraint firstItem="7lt-h1-dds" firstAttribute="top" secondItem="9iM-bW-YhV" secondAttribute="bottom" constant="8" id="mco-hR-Y11"/>
                 <constraint firstItem="9iM-bW-YhV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oof-P0-CFi"/>
                 <constraint firstAttribute="trailing" secondItem="7lt-h1-dds" secondAttribute="trailing" constant="8" id="qjM-0N-fGJ"/>
